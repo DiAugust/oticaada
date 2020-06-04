@@ -16,22 +16,24 @@ body {
 }
 
 #container-left {
-    width: 15%;
+    width: 17%;
     height: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 #container-right {
-    width: 85%;
+    width: 83%;
     height: 100%;
     background: linear-gradient(158deg, rgba(23,127,74,1) 30%, rgba(15,75,44,1) 90%);
 }
 
 #logo-main {
     max-width: 90%;
+    margin: 20px;
 }
 
 #pages-counter {
@@ -44,13 +46,36 @@ body {
 .counter-small {
     font-size: 10px;
     font-weight: bold;
+    color: black;
 }
 
 .counter-big {
     font-size: 16px;
     font-weight: bold;
+    color: black;
 }
 
 .counter-pipe {
     font-size: 35px;
+}
+
+#social-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-icons {
+    max-width: 25px;
+    margin: 2px;
+}
+
+.social-icons-margin-left {
+    margin-left: 12px;
+}
+
+.social-icons-margin-right {
+    margin-right: 12px;
 }
