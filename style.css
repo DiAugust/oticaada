@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
 
 /* fontes */
 
@@ -104,6 +105,7 @@ header {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
 }
 
 #nav-left-space {
@@ -131,6 +133,23 @@ nav {
     color: #E3B015;
 }
 
+.nav-links-whats {
+    color: #E3B015 !important;
+}
+
 .nav-links-active {
     border-bottom: 2px solid #E3B015;
+}
+
+#space-to-title {
+    width: 10vw;
+    height: 50vh;
+}
+
+#main-title {
+    width: 40vw;
+    height: 50vh;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 5vw;
+    color: white;
 }

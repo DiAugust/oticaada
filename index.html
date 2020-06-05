@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
     <script src="main.js"></script>
     <title>Ótica Ada - Fábrica de óculos</title>
 </head>
 <body>
     <div id="container-left">
         <img id="logo-main" src="src/logoW.svg" alt="logo-otica-ada">
-        <div id="pages-counter">
+        <div class="scale-up-ver-center" id="pages-counter">
             <span class="counter-big">01</span>
             <span class="counter-pipe">|</span>
             <br>
@@ -24,19 +25,19 @@
         </div>
         <div id="social-container">
             <a class="social-icons-margin-left" href="https://www.instagram.com/oticaada/" target="_blank" rel="noopener noreferrer">
-                <img class="social-icons" src="src/011-instagram.svg" alt="instagram-logo">
+                <img class="social-icons rotate-scale-up" src="src/011-instagram.svg" alt="instagram-logo">
             </a>
             <a href="https://www.facebook.com/OticaAda/" target="_blank" rel="noopener noreferrer">
-                <img class="social-icons" src="src/001-facebook.svg" alt="facebook-logo">
+                <img class="social-icons rotate-scale-up" src="src/001-facebook.svg" alt="facebook-logo">
             </a>
             <a class="social-icons-margin-right" href="https://twitter.com/oticaada" target="_blank" rel="noopener noreferrer">
-                <img class="social-icons" src="src/002-twitter.svg" alt="twitter-logo">
+                <img class="social-icons rotate-scale-up" src="src/002-twitter.svg" alt="twitter-logo">
             </a>
         </div>
     </div>
     <div id="container-right">
         <header>
-            <div id="nav-left-space">
+            <div id="nav-left-space"> 
 
             </div>
             <nav>
@@ -44,10 +45,13 @@
                 <a class="nav-links" href="#">SOBRE</a>
                 <a class="nav-links" href="#">PRODUTOS</a>
                 <a class="nav-links" href="#">SERVIÇOS</a>
-                <a class="nav-links" href="https://api.whatsapp.com/send?phone=5511958281602&text=Ol%C3%A1%20%C3%93tica%20Ada!" target="_blank"> <img width="30px" style="margin-right: 5px;" src="/src/whatsapp.svg" alt=""> CHAMAR NO WHATSAPP</a>
+                <a class="nav-links scale-up-center2" href="https://api.whatsapp.com/send?phone=5511958281602&text=Ol%C3%A1%20%C3%93tica%20Ada!" target="_blank"> <img class="slide-fwd-center" width="30px" style="margin-right: 5px;" src="/src/whatsapp.svg" alt=""> CHAMAR NO WHATSAPP</a>
             </nav>
         </header>
         <div id="img-main-woman">
+            <span id="space-to-title"></span>
+            <h1 id="main-title">Qualidade e<br> preço justo <br> combinam com <br> você.</h1>
+            <h2></h2>
         </div>
     </div>
 </body>
