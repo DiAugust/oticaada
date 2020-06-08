@@ -31,7 +31,7 @@ body {
 }
 
 #container-right {
-    width: 95%;
+    width: 96%;
     height: 100%;
     background: rgb(23,127,74);
     background: linear-gradient(129deg, rgba(23,127,74,1) 37%, rgba(15,75,44,1) 94%);
