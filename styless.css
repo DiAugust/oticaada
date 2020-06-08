@@ -25,6 +25,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.97), rgba(245, 246, 252, 0.97)),
+    url(/src/pattern.jpg);
+    
 }
 
 #container-right {
